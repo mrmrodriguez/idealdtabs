@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  color: #a19191;
+  letter-spacing: 2px;
+}
+
+a,
+nav a {
+  color: #a19191;
+}
+
+.option-banner {
+  height: 35vh;
+  border: 1px solid #000;
+  background-color: #404040;
+}
+
+.option-banner h1 {
+  margin-top: 100px;
+  color: #fff;
+}
+
+.chevron-arrow-down {
+  display: inline-block;
+  border-right: 4px solid #fff;
+  border-bottom: 4px solid #fff;
+  width: 30px;
+  height: 30px;
+  transform: rotate(45deg);
+}
+
+/* SHOWCASE */
+.showcase {
+  height: 90vh;
+  /* background: url('https://images.unsplash.com/photo-1599643332904-ddc6060f3289?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2013&q=80') center/cover no-repeat fixed; */
+}
+
+#showcase1 {
+  background: url('https://images.unsplash.com/photo-1599643332904-ddc6060f3289?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2013&q=80') center/cover no-repeat fixed;
+}
+
+#showcase2 {
+  background: url('https://images.unsplash.com/photo-1598928387577-d49b6d399110?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80') center/cover no-repeat fixed;
+}
+
+#showcase3 {
+  background: url('https://images.unsplash.com/photo-1591924141389-7875d935d3d1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80') center/cover no-repeat fixed;
+}
+
+#showcase4 {
+  background: url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2067&q=80') center/cover no-repeat fixed;
+}
+
+nav img {
+  width: 100%;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+#option1-nav1,
+#option2-nav1,
+#option3-nav1,
+#option4-nav1 {
+  color: red;
+}
+
+.nav1 {
+  font-size: 24px;
+  /* color: #a19191; */
+}
+
+.nav2 {
+  font-size: 18px;
+}
+
+
+/* nav {
+  font-size: 24px;
+  color: #a19191;
+} */
